@@ -1,0 +1,22 @@
+.elementor-container {
+    background-color: rgb(237,244,245);
+}
+
+.elementor-element {
+    padding-top: 25px;
+}
+
+
+.elementor-row {
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.elementor-widget-wrap {
+    width: 80%;
+}
+
+.elementor-heading-title {
+    text-align: center;
+}

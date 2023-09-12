@@ -1,0 +1,54 @@
+
+
+
+.card_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+.card_product {
+    margin: 20px;
+    width: 18rem; /* Set a fixed width for the cards */
+    height: 500px; /* Set a fixed height for the cards */
+    overflow: hidden; /* Hide overflowing content */
+    
+}
+
+.card_product button {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    background-color: #3a6a87 !important;
+    border: none;
+}
+.card {
+    background-color: indianred !important;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) !important  ;
+}
+
+.text-name{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Display ellipsis for overflowing text */
+    cursor: pointer;
+    color: black;
+}
+.text-price{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: black !important;
+}
+
+
+.card_product button:hover {
+    background-color: #0bb179 !important;
+}

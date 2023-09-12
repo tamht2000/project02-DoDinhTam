@@ -1,0 +1,69 @@
+
+
+
+
+/* CSS cho table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #6b6262;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #4d4646;
+    text-align: center;
+  }
+  
+  /* CSS cho nút "Sửa" và "Xoá" */
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+  
+  /* CSS cho form */
+  .product-form {
+    margin-top: 20px;
+  }
+  
+  .product-form h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Tùy chỉnh nút "Lưu Sửa" và "Thêm mới" */
+  .product-form button:last-child {
+    background-color: #28A745;
+    margin-top: 5px;
+  }

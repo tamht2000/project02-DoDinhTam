@@ -1,0 +1,103 @@
+/* src/Registration.css */
+.registration-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 110px;
+    background-image: url("https://tophinhanhdep.com/wp-content/uploads/2021/10/Delicious-Food-Wallpapers.jpg");
+    background-size: cover; /* Tự động điều chỉnh kích thước hình ảnh để nó phù hợp với phần tử */
+  background-repeat: no-repeat; /* Ngăn hình ảnh lặp lại */
+  background-position: center; /* Căn giữa hình ảnh */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .registration-container form {
+    background-color: #556f56;
+    width: 450px;
+  }
+  
+  @keyframes colorChange {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: purple; }
+}
+  .registration-container h2 {
+    text-align: center;
+    animation: colorChange 5s linear infinite;
+    width: 400px;
+    margin-top: 20px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+    width: 400px;
+    
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  
+  
+  .input-group {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 55px;
+    font-size: 16px;
+    
+  }
+  
+  button {
+    background-color: #cc1e1e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: #212529  ;
+  }
+
+  .password-input {
+    position: relative;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+  }
+  
+  .password-toggle.active {
+    color: #007bff;
+  }
+
+
+  /* Màu message */
+  .message {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .message-success {
+    background-color: #4caf50; /* Màu xanh cho thành công */
+    color: white;
+  }
+  
+  .message-error {
+    background-color: #f44336; /* Màu đỏ cho lỗi */
+    color: white;
+  }

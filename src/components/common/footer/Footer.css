@@ -1,0 +1,70 @@
+.footer-container {
+    background-color: rgb(33,37,41); /* Màu nền của footer */
+    
+}
+
+.container_wrapper {
+    margin: 30px 0;
+    display: flex;
+}
+.footer-container a, h3, i, p {
+    text-decoration: none;
+    color: #ffffff; /* Màu chữ cho tất cả các liên kết */
+}
+.footer-container a:hover, li a i:hover{
+    color: #ff0000; /* Màu chữ khi di chuột qua */
+}
+
+.footer-container .container {
+    width: 1100px;
+    display: flex;
+   
+}
+.footer-container .row_first {
+    width: 25%;
+    text-align: center;
+}
+.footer-container .row_first .row--first img{
+    width: 75%;
+    
+}
+
+.footer-container .row_second{
+    width: 70%;
+    padding: 10px;
+}
+.footer-container ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-container .footer-logo img {
+    width: 150px; /* Độ rộng của logo */
+    height: auto; /* Chiều cao tự động để giữ tỷ lệ */
+}
+.footer-container .block-social li a .anicon-facebook,
+.footer-container .block-social li a .anicon-instagram {
+    font-size: 24px; /* Kích thước biểu tượng mạng xã hội */
+}
+
+
+/* Thiết kế phần hàng chứa thông tin footer */
+.row_second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxx {
+    flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+/* Thiết kế biểu tượng mạng xã hội sử dụng Font Awesome */
+.facebook i,
+.instagram i {
+    font-size: 24px;
+    color: #f8f8f8;
+}
